@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#d8ff47" />
+    <meta
+      name="description"
+      content="Saringkan Dangsuwan — Pukao, an IT student at KMITL."
+    />
+    <title>Pukao — Saringkan Dangsuwan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Thai:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="Pukao — home">
+        <span class="logo-mark">▲</span>
+        <span>BIGPOOH.IN.TH</span>
+      </a>
+      <div class="coordinates" aria-label="Bangkok coordinates">
+        <span>13.7299° N</span>
+        <span>100.7784° E</span>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow reveal">
+          <span class="status-dot"></span>
+          <span>PERSONAL PEAK / 2026</span>
+        </div>
+
+        <div class="hero-copy">
+          <p class="hello reveal">สวัสดี, ผมชื่อ</p>
+          <h1 id="hero-title" class="reveal">
+            <span>SARINGKAN</span>
+            <span class="outline">DANGSUWAN</span>
+          </h1>
+          <p class="thai-name reveal">ศฤงคาร แดงสุวรรณ</p>
+        </div>
+
+        <div class="summit-tag reveal">
+          <span class="tag-index">01</span>
+          <span class="tag-label">NICKNAME</span>
+          <strong>PUKAO / ภูเขา</strong>
+        </div>
+
+        <div class="scroll-hint" aria-hidden="true">
+          <span>SCROLL TO ASCEND</span>
+          <span class="scroll-line"></span>
+        </div>
+      </section>
+
+      <section class="mountain-stage" aria-label="Animated mountain landscape">
+        <div class="sun" aria-hidden="true"></div>
+        <div class="altitude altitude-one">ALT. 1,350 M</div>
+        <div class="altitude altitude-two">TRAIL_01</div>
+
+        <svg class="mountains" viewBox="0 0 1440 720" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+          <g class="ridge ridge-back" data-depth="0.018">
+            <path d="M-80 720V520L120 390l100 52 175-182 108 116 132-88 196 196 145-123 130 87 120-178 314 250v200z" />
+          </g>
+          <g class="contours" data-depth="0.03">
+            <path d="M-70 608c138-84 220-92 336-35s190 58 308-31 189-78 306 5 239 84 362-33 210-96 300-18" />
+            <path d="M-90 650c146-71 239-73 350-19s203 43 315-27 190-66 313 11 235 66 357-28 207-74 298-10" />
+            <path d="M-60 692c155-50 249-50 361-5s201 34 311-18 186-45 307 14 229 45 348-22 199-49 286-2" />
+          </g>
+          <g class="ridge ridge-front" data-depth="0.05">
+            <path d="M-100 720V665l196-94 136 54 158-234 91 91 103-153 77 84 80-226 108 224 89-107 92 185 76-49 100 154 104-63 230 134v55z" />
+            <path class="snow" d="M741 187l-80 226 62-65 24 27 31-59 31 62 40 33z" />
+          </g>
+        </svg>
+      </section>
+
+      <section class="about" aria-labelledby="about-title">
+        <div class="section-meta reveal">
+          <span>02 / BASE CAMP</span>
+          <span>ABOUT.ME</span>
+        </div>
+
+        <div class="about-grid">
+          <h2 id="about-title" class="reveal">
+            CURRENTLY<br />
+            <span>CLIMBING</span>
+          </h2>
+
+          <div class="education-card reveal">
+            <div class="card-topline">
+              <span>EDUCATION</span>
+              <span class="live">● ACTIVE</span>
+            </div>
+            <p class="education-th">เรียนอยู่ที่ไอทีลาดกระบัง</p>
+            <p class="education-en">INFORMATION TECHNOLOGY<br />AT KMITL</p>
+            <div class="code-line">
+              <span>pukao@kmitl</span><span>~</span><span>$ keep_climbing</span><i></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>BUILT AT THE FOOT OF THE MOUNTAIN.</p>
+      <p>© <span id="year"></span> SARINGKAN DANGSUWAN</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
